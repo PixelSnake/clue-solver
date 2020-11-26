@@ -1,0 +1,27 @@
+Subjects
+Schlafmittel, Petrificus Totalus, Unsichtbarkeitsschrank, Portschlüssel, Impedimenta, Alraune
+Lucius Malfoy, Crabbe & Goyle, Bellatrix Lestrange, Draco Malfoy, Dolores Umbridge, Peter Pettigrew
+Wahrsagen, Pokalzimmer, Zaubertränke, Eulerei, Bibliothek, Raum der Wünsche, Verteidigung gegen die dunklen Künste, Große Halle, Krankenflügel
+
+Actors Thomas, Franzi, Carina
+Init Schlafmittel, Lucius Malfoy, Dolores Umbridge, Große Halle, Krankenflügel, Eulerei
+
+End
+
+Thomas
+Petrificus Totalus, Peter Pettigrew, Pokalzimmer
+Carina Petrificus Totalus
+
+Franzi
+Eulerei, Draco Malfoy, Schlafmittel
+Carina ?
+Thomas Schlafmittel
+
+Carina
+Bibliothek, Peter Pettigrew, Petrificus Totalus
+Franzi ?
+
+Thomas
+Eulerei, Unsichtbarkeitsschrank, Peter Pettigrew
+Franzi Unsichtbarkeitsschrank
+

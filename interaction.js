@@ -43,14 +43,14 @@ async function readAction(actionTracker) {
         process.stdout.write('Actor: ')
         const actor = await readFromList(actors)
 
-        process.stdout.write('Suspicion\n\tWeapon: ')
+        process.stdout.write('Suspicion\n\tRoom: ')
+        const room = await readFromList(rooms)
+
+        process.stdout.write('\tWeapon: ')
         const weapon = await readFromList(weapons)
 
         process.stdout.write('\tMurderer: ')
         const subject = await readFromList(subjects)
-
-        process.stdout.write('\tRoom: ')
-        const room = await readFromList(rooms)
 
         const suspicion = [weapon, subject, room]
         const evidence = {}

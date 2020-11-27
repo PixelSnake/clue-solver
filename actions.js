@@ -20,7 +20,7 @@ class ActionTracker {
 
     getFormulas(action) {
         if (action) return actionToFormulas(action, this)
-        return actions.map(a => actionToFormulas(a, this))
+        return this.actions.map(a => actionToFormulas(a, this))
     }
 
     keyForSubject(subj, actor) {
@@ -160,6 +160,7 @@ function actionToFormulas(action, tracker) {
 // "if one of {actors} doesnt have it, then its the solution"
 function formula_notActorsMeansSolution(evidence, actors, tracker) {
     const notActors = actors.map(a => `!${tracker.keyForSubject(evidence, a)}`).join('&')
+    if (notActors.length < 1) return tracker.keyForSubject(evidence)
     return `${notActors} => ${tracker.keyForSubject(evidence)}`
 }
 

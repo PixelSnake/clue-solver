@@ -1,0 +1,75 @@
+Subjects
+Heizungsrohr, Leuchter, Pistole, Seil, Dolch, Rohrzange
+Prof. Bloom, Baronin von Porz, Frl. Ming, Frau Weiß, Oberst von Gatow, Herr Dir. Grün
+Küche, Bibliothek, Salon, Speisezimmer, Billardzimmer, Eingangshalle, Veranda, Arbeitszimmer, Musikzimmer
+
+Actors Thomas, Julian, Patricia
+Init Frau Weiß, Oberst von Gatow, Eingangshalle, Salon, Leuchter, Musikzimmer
+
+Patricia
+Pistole, Frl. Ming, Arbeitszimmer
+Julian ?
+
+Thomas
+Pistole, Frl. Ming, Musikzimmer
+Julian Frl. Ming
+
+Patricia
+Dolch, Frau Weiß, Küche
+Julian ?
+
+Julian
+Rohrzange, Frau Weiß, Salon
+Patricia ?
+
+Thomas
+Pistole, Prof. Bloom, Salon
+Julian Prof. Bloom
+
+Thomas
+Rohrzange, Herr Dir. Grün, Billardzimmer
+Patricia Rohrzange
+
+Patricia
+Heizungsrohr, Oberst von Gatow, Salon
+Julian ?
+
+Julian
+Pistole, Oberst von Gatow, Bibliothek
+Patricia ?
+
+Thomas
+Leuchter, Herr Dir. Grün, Bibliothek
+Patricia Bibliothek
+
+Patricia
+Leuchter, Prof. Bloom, Musikzimmer
+Julian ?
+
+Thomas
+Pistole, Herr Dir. Grün, Salon
+
+Patricia
+Seil, Baronin von Porz, Veranda
+Julian ?
+
+Patricia
+Seil, Baronin von Porz, Speisezimmer
+Julian ?
+
+Thomas
+Leuchter, Frl. Ming, Billardzimmer
+Julian Frl. Ming
+Patricia Billardzimmer
+
+Thomas
+Dolch, Baronin von Porz, Bibliothek
+Julian Dolch
+Patricia Bibliothek
+
+Patricia
+Heizungsrohr, Baronin von Porz, Eingangshalle
+Julian ?
+
+Thomas
+Leuchter, Frau Weiß, Arbeitszimmer

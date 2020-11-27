@@ -4,7 +4,7 @@ const interaction = require('./interaction')
 const variables = []
 
 const actionTracker = new actions.ActionTracker()
-actionTracker.loadGame('harrypotter.txt')
+actionTracker.loadGame('original.txt')
 
 let exprFormulas = []
 init()

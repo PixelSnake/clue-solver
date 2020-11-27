@@ -4,6 +4,7 @@ async function run(actionTracker, exprFormulas, variables) {
     console.log('Clue solver V1 - Welcome.')
     console.log('Type')
     console.log('\t- n to start a new game')
+    console.log('\t- i to calculate based on input data')
     console.log('\t- q to quit')
     console.log()
 
@@ -24,6 +25,10 @@ async function run(actionTracker, exprFormulas, variables) {
 
             game.trySolve(exprFormulas, variables, actionTracker)
         }
+    }
+    if (line === 'i') {
+        exprFormulas = exprFormulas.concat(...actionTracker.getFormulas())
+        game.trySolve(exprFormulas, variables, actionTracker)
     }
 }
 

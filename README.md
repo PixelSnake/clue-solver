@@ -8,7 +8,7 @@ It has to be structured as follows:
 First line: `Subjects` \
 Second line: The list of weapons separated by commas \
 Third line: The list of suspects, separated by commas \
-Fourth line: The list of rooms, separated by commas \
+Fourth line: The list of rooms, separated by commas
 
 Empty line
 

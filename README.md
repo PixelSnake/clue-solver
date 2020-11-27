@@ -5,10 +5,10 @@
 Important game data is loaded at the beginning from a txt file, by default `original.txt` (as specified in `index.js:7`).
 It has to be structured as follows:
 
-First line: `Subjects`
-Second line: The list of weapons separated by commas
-Third line: The list of suspects, separated by commas
-Fourth line: The list of rooms, separated by commas
+First line: `Subjects` \
+Second line: The list of weapons separated by commas \
+Third line: The list of suspects, separated by commas \
+Fourth line: The list of rooms, separated by commas \
 
 Empty line
 
@@ -32,8 +32,8 @@ This is enough for an interactive game (online calculation). If you want to calc
 
 ## Offline calculation
 
-First line: Name of the current player, e.g. your name if it is you who raises the suspicion.
-Second line: The suspicion, so a room, weapon and suspect separated by commas.
+First line: Name of the current player, e.g. your name if it is you who raises the suspicion. \
+Second line: The suspicion, so a room, weapon and suspect separated by commas. \
 Then for all players who showed you one of their cards, their name and the card they showed you. If it's another player's turn and you only see **that** they showed a card, but not **which one**, enter their name followed by a question mark.
 
 After the list of evidence, an empty line follows to finish the round.
